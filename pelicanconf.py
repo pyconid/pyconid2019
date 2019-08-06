@@ -5,12 +5,17 @@ from __future__ import unicode_literals
 AUTHOR = 'PyCon Indonesia'
 SITENAME = 'PyCon Indonesia 2019'
 SITEURL = ''
+SITESUBTITLE = 'Surabaya Python User Group'
+DESCRIPTION = 'Surabaya Python User Group'
+SITEIMAGE = '/images/logo.png'
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Jakarta'
 
 DEFAULT_LANG = 'en'
+
+THEME = 'themes/eventalk'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,7 +34,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 10
+STATIC_PATHS = ['images', 'pdfs']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
