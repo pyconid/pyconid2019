@@ -11,11 +11,12 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'https://pycon.id'
+# SITEURL = 'https://pycon.id'
+SITEURL = 'https://pyconid.github.io/pyconid2019/'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+# CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml' # Nanti waktu udah implement jinja2 baru dipikirkan 
 
 DELETE_OUTPUT_DIRECTORY = True
 
