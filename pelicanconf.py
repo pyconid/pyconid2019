@@ -38,4 +38,14 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['images', 'pdfs']
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+# Page Configurations
+PAGE_PATHS = ['pages']
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}.html'
+
+# Article Configurations
+ARTICLE_PATHS = ['articles']
+ARTICLE_URL = 'articles/{slug}'
+ARTICLE_SAVE_AS = 'articles/{slug}.html'
