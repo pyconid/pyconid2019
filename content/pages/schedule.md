@@ -1,0 +1,2 @@
+title: Schedule
+Template: schedule

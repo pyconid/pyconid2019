@@ -1,0 +1,2 @@
+title: Speakers
+Template: speakers
