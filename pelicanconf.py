@@ -49,3 +49,12 @@ PAGE_SAVE_AS = '{slug}.html'
 ARTICLE_PATHS = ['articles']
 ARTICLE_URL = 'articles/{slug}'
 ARTICLE_SAVE_AS = 'articles/{slug}.html'
+
+# Menu Items configurations
+MENUITEMS = (
+    ('About', 'about'),
+    ('Speakers', 'speakers'),
+    ('Schedule', 'schedule'),
+    ('Blog', 'blog'),
+    ('Contact', 'contact'),
+)
