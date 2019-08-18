@@ -40,7 +40,7 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-            <li class="nav-item {% if output_file == 'index.html' %}active{% endif %}"><a href="{{ SITEURL }}/" class="nav-link">Home</a></li>
+            <!-- <li class="nav-item {% if output_file == 'index.html' %}active{% endif %}"><a href="{{ SITEURL }}/" class="nav-link">Home</a></li> -->
             {% for m in MENUITEMS %}
               {% set menu_class = 'nav-item ' %}
               {% if page %}
@@ -50,7 +50,7 @@
               {% endif %}
               <li class="{{menu_class}}"><a href="{{ SITEURL }}/{{ m[1] }}" class="nav-link">{{ m[0] }}</a></li>
             {% endfor %}
-	          <li class="nav-item cta mr-md-2"><a href="#" class="nav-link">Buy ticket</a></li>
+	          <!-- <li class="nav-item cta mr-md-2"><a href="#" class="nav-link">Buy ticket</a></li> -->
 	        </ul>
 	      </div>
 	    </div>
@@ -64,7 +64,7 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">PyCon ID 2019</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <p> The third PyCon ID back to Surabaya! A conference where Python users or people interested in Python gather to learn from each other and meet other members of the community from all around the world.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="https://twitter.com/id_python"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.facebook.com/IDPython/"><span class="icon-facebook"></span></a></li>
@@ -75,24 +75,24 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Useful Links</h2>
+              <!-- <h2 class="ftco-heading-2">Useful Links</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Speakers</a></li>
                 <li><a href="#" class="py-2 d-block">Shcedule</a></li>
                 <li><a href="#" class="py-2 d-block">Events</a></li>
                 <li><a href="#" class="py-2 d-block">Blog</a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Privacy</h2>
+              <!-- <h2 class="ftco-heading-2">Privacy</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Career</a></li>
                 <li><a href="#" class="py-2 d-block">About Us</a></li>
                 <li><a href="#" class="py-2 d-block">Contact Us</a></li>
                 <li><a href="#" class="py-2 d-block">Services</a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
           <div class="col-md">
@@ -112,7 +112,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy; PyCon ID <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
