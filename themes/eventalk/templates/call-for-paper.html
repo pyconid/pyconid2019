@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.title}}{% endblock %}
+{% block content %}
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
+          <div class="col-xl-10 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"> Python Conference<br><span>Indonesia 2019</span></h1>
+            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">November 23, 2019. Surabaya, Indonesia</p>
+            <div id="timer" class="d-flex mb-3">
+						  <div class="time" id="days"></div>
+						  <div class="time pl-4" id="hours"></div>
+						  <div class="time pl-4" id="minutes"></div>
+						  <div class="time pl-4" id="seconds"></div>
+						</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<section class="ftco-section ftco-counter img" id="section-counter">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-10 offset-md-1 pl-md-5">
+          <div class="row justify-content-start p-3 border rounded">
+            <div class="col-md-12 heading-section ftco-animate">
+              <h3 class="mb-4">Speak at Pycon ID</h3>
+              <p>PyCon Indonesia is pleased to announce that the Call For Proposals is now open. We are calling out for speakers to share their Python knowledge which would intrigue the Python community at this event!</p>
+              <p>We’re looking for proposals on every aspect of Python: from basic to advanced levels. We’re interested to see all content that’s interesting and engaging to the Python community, whether it be tutorials, case studies, interactive sessions, or even how you and your organization works with Python. So if you have something that the community might be interested in, let us know; and don’t worry if you’re a seasoned engineer or a novice with no experience of presenting at a conference before; what matters is the content that you’ll be sharing with the community.</p>
+            </div>
+            <div class="col-md-12 heading-section ftco-animate">
+              <h3 class="mb-4 mt-3">Proposal Types</h3>
+              <p>Talks are limited to a maximum of 35 minutes, and may preferably be accompanied with helping material (presentation, document, etc). Talks could be on a variety of topics (for further details and inspiration, check out the next section).</p>
+              <p>Workshops, tutorials, and interactive sessions have a 60 minutes limit. For workshops, we encourage tutorials that can be helpful to the community at any level, whether beginner or advanced. Both time slots include time for questions from the audience, so please plan your talk accordingly.</p>
+            </div>
+            <div class="col-md-12 heading-section ftco-animate">
+              <h3 class="mb-4 mt-3">Guidelines for Proposal Submission</h3>
+              <p>While there’s not a strict criteria on the proposal content, there are a few guidelines to be followed while submitting a proposal and you must follow the Code of Conduct.</p>
+              <p>The proposal should be concise and relevant to the event. Please be sure to mention necessary versions and environment setup configurations, where applicable.</p>
+              <p>It’s preferable if your associated organization’s name/branding is mentioned only at the beginning of the proposal, and the rest of the content is unbiased and generic. Moreover, any platform, technology, browser, and OS biases should also be avoided. Selection status of proposals will be notified via email.</p>
+              <p>Feel free to submit multiple proposals. For any questions, please write to <a href="mailto:conf@python.or.id">conf@python.or.id</a> Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!</p>
+              <p><a class="btn btn-primary btn-sm" href="{{ page.cfp_url }}">Subtmi now!</a></p>
+              <p>{{page.test}}</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
