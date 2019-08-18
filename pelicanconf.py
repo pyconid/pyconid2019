@@ -25,10 +25,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    ('Jinja2', 'http://jinja.pocoo.org/'),
+    ('You can modify those links in your config file', '#'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -52,10 +54,10 @@ ARTICLE_SAVE_AS = 'articles/{slug}.html'
 
 # Menu Items configurations
 MENUITEMS = (
-    ('About', 'about'),
-    ('Speak at Pycon ID', 'call-for-paper'),
-    ('Speakers', 'speakers'),
-    ('Schedule', 'schedule'),
-    ('Blog', 'blog'),
-    ('Contact', 'contact'),
+    # ('About', 'about'),
+    # ('Speak at Pycon ID', 'call-for-paper'),
+    # ('Speakers', 'speakers'),
+    # ('Schedule', 'schedule'),
+    # ('Blog', 'blog'),
+    # ('Contact', 'contact'),
 )
