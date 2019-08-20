@@ -16,7 +16,6 @@ script:
 after_success:
 - rm -rf .git/
 - git init
-- echo "pycon.id" > CNAME
 - git config user.name "PyconID"
 - git config user.email "pyconid@pycon.id"
 - git config --global push.default simple
