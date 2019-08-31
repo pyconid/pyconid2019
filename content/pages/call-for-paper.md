@@ -1,5 +1,6 @@
 title: Call For Paper
 Template: default_page
+sponsor: PENS, ITS, PPNS
 
 ### Speak at Pycon ID
 

@@ -160,5 +160,12 @@
   <script src="{{ SITEURL }}/theme/js/google-map.js"></script>
   <script src="{{ SITEURL }}/theme/js/main.js"></script>
 
+  <script>
+      $(document).ready(function(){
+        console.log('test')
+        $('.tool_tip').tooltip({trigger: 'manual'}).tooltip('show');  
+    });
+  </script>
+
   </body>
 </html>
