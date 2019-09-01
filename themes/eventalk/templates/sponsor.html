@@ -265,13 +265,17 @@
               <div class="row d-flex justify-content-center mt-4 mb-4">
 
                 <div class="col-md-8">
-                  <!-- <form action="#" class="subscribe-form">
+                  <!-- <form action="mailto:fadlifarham10@gmail.com?subject=Sponsorhip%20PYCON%202019" class="subscribe-form">
                     <div class="form-group d-flex">
                       <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
+                      <input type="submit" value="Apply Here" class="submit px-3">
                     </div>
                   </form> -->
-                  <button class="btn" style="background-color: #3F5FFF; color: white;">Apply Here</button>
+                  <!-- <button class="btn" style="background-color: #3F5FFF; color: white;"> -->
+                    <a class="btn" style="background-color: #3F5FFF; color: white;" href="mailto: farahclara@python.or.id?subject=Apply%20Sponsorhip%20PYCON%202019">
+                      Apply Here
+                    </a>
+                  <!-- </button> -->
                 </div>
 
               </div>
@@ -280,4 +284,12 @@
         </div>
       </div>
     </section>
+{% endblock %}
+
+{% block custom_js %}
+<script>
+  $(document).ready(function() {
+    
+  });
+</script>
 {% endblock %}
