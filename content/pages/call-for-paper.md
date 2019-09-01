@@ -1,16 +1,30 @@
 title: Call For Paper
 Template: default_page
 
-### Speak at Pycon ID
+### Speak at PyCon ID
 
 PyCon Indonesia is pleased to announce that the Call For Proposals is now open. We are calling out for speakers to share their Python knowledge which would intrigue the Python community at this event!
 
-We’re looking for proposals on every aspect of Python: from basic to advanced levels. We’re interested to see all content that’s interesting and engaging to the Python community, whether it be tutorials, case studies, interactive sessions, or even how you and your organization works with Python. So if you have something that the community might be interested in, let us know; and don’t worry if you’re a seasoned engineer or a novice with no experience of presenting at a conference before; what matters is the content that you’ll be sharing with the community.
+We’re looking for proposals on every aspect of Python: basic, intermediate or advanced levels. We’re interested to see all content that’s interesting and engaging to the Python community, whether it be **introduction, tutorials, case studies, learning-teaching-community, interactive sessions, or even how you and your organization work with Python**. So if you have something that the community might be interested in, let us know.
+
+The last but not least, **don’t worry if you’re a seasoned engineer or a novice with no experience of presenting at a conference before**; what matters is the content that you’ll be sharing with the community.
 
 ### Proposal Types
-Talks are limited to a maximum of 35 minutes, and may preferably be accompanied with helping material (presentation, document, etc). Talks could be on a variety of topics (for further details and inspiration, check out the next section).
 
-Workshops, tutorials, and interactive sessions have a 60 minutes limit. For workshops, we encourage tutorials that can be helpful to the community at any level, whether beginner or advanced. Both time slots include time for questions from the audience, so please plan your talk accordingly.
+Talks are limited to a maximum of 40 minutes, and may preferably be accompanied with helping material (presentation, image, document, etc). The time slots include time for questions from the audience, so please plan your talk accordingly.
+
+Lightning Talks are limited to a maximum of 7 minutes. The lightning talks session will not have Q&A time slot on stage.
+
+Talks could be on a variety of topics (for further details and inspiration, check out the next section).
+
+**Your proposal is as simple as answering these questions:**
+
+* Title of your talks
+* Elevator Pitch
+* Audience Level (Beginner, Intermediate, Advanced)
+* Description of your talks
+* About you
+
 
 ### Guidelines for Proposal Submission
 
@@ -22,6 +36,9 @@ It’s preferable if your associated organization’s name/branding is mentioned
 
 Feel free to submit multiple proposals. For any questions, please write to conf@python.or.id Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!
 
+
+#### Join Our Stage! [Register Yourself](https://www.papercall.io/pyconid2019)
+
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -32,7 +49,7 @@ Feel free to submit multiple proposals. For any questions, please write to conf@
 <div id="mc_embed_signup" style="width:100%">
 <form action="https://github.us19.list-manage.com/subscribe/post?u=ba3b5bb042f8cf90f9423c062&amp;id=de164d6ce0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>We Are Not Ready Yet!</h2>
+	<h2>Join our Milis!</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
