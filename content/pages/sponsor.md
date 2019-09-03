@@ -20,4 +20,4 @@ sponsorship_options: Logo On Stages, Extra Large, Large, Medium, Small
     Promotional booth space, Yes, Yes, Yes, Yes
     Logo and mention at plenary session, Displayed with Diamond Sponsor, Displayed with Platinum Sponsor, Displayed with Gold Sponsor, Displayed with Silver Sponsor
     Address the conference at plenary session, 5 Minutes, No, No, No
-    Price, <b>IDR 50.000.000</b>, <b>IDR 40.000.000</b>, <b>IDR 25.000.000</b>, <b>IDR 10.000.000</b>
+    Price, <b>IDR<br><span style="font-size: 17px;">50.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">40.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">25.000.000</span></b>, <b>IDR<br><span style="font-size: 17px;">10.000.000</span></b>
