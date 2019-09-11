@@ -56,6 +56,7 @@ ARTICLE_SAVE_AS = 'articles/{slug}.html'
 MENUITEMS = (
     # ('About', 'about'),
     ('Sponsor', 'sponsor'),
+    ('Participant', 'participant-mail-list'),
     ('Speak at Pycon ID', 'call-for-paper'),
     # ('Speakers', 'speakers'),
     # ('Schedule', 'schedule'),

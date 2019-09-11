@@ -3,7 +3,7 @@ Template: default_page
 
 ### Attending PyCon ID
 
-PyCon Indonesia is pleased to announce that PyCon for attendances will be open. If you'd like to know our news earlier than anyone else, please join our Mail List! Psst, there are some advantages if you join Mail List and we will inform that to you if you already joined. So what are you waiting for? Join us now and learn any Python knowledge at this event!
+PyCon Indonesia 2019 will be held in Surabaya on November 23rd. We are pleased to announce that registration for attendances will be open soon on October 1st, 2019. If you'd like to hear our ticket news earlier than anyone else, please join our Mail List! Psst, we will inform you with other informations such as ticket pre-sale* and etc on Mail List. So what are you waiting for? Join us now and learn any Python knowledge at this event!
 
 #### Join PyCon Indonesia 2019!
 
