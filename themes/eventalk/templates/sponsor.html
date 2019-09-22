@@ -163,17 +163,18 @@
             <div class="col-md-6 ftco-animate">
                 <div class="block-7">
                     <div class="text-center">
-                    <h2 class="heading">Tote Bag Sponshorship</h2>
-                    <span class="price"><sup></sup> <span class="number">10 MO</span></span>
+                    <h2 class="heading"> <strike> Tote Bag Sponshorship </strike> </h2>
+                    <span class="price"><sup></sup> <span class="number"> <strike> 10 MO </strike> </span></span>
                     <!-- <span class="excerpt d-block">per Month</span> -->
                     
-                    <h3 class="heading-2 my-4">Enjoy The Features</h3>
-                    
+                    <!-- <h3 class="heading-2 my-4"> <strike> Enjoy The Features </strike> </h3> -->
+                    <h3 class="heading-2 my-4" style="color: red;"> SOLD OUT </h3>
+
                     <ul class="pricing-text mb-5">
-                        <li>Logo on the Tote Bag</li>
+                        <li> <strike> Logo on the Tote Bag </strike> </li>
                     </ul>
                     
-                    <span style="color: red">Limited to One Sponsor</span>
+                    <span style="color: red"> <strike> Limited to One Sponsor </strike> </span>
                     <!-- <a href="#" class="btn btn-primary d-block px-2 py-3">Buy Ticket</a> -->
                     </div>
                 </div>
@@ -265,13 +266,17 @@
               <div class="row d-flex justify-content-center mt-4 mb-4">
 
                 <div class="col-md-8">
-                  <!-- <form action="#" class="subscribe-form">
+                  <!-- <form action="mailto:fadlifarham10@gmail.com?subject=Sponsorhip%20PYCON%202019" class="subscribe-form">
                     <div class="form-group d-flex">
                       <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
+                      <input type="submit" value="Apply Here" class="submit px-3">
                     </div>
                   </form> -->
-                  <button class="btn" style="background-color: #3F5FFF; color: white;">Apply Here</button>
+                  <!-- <button class="btn" style="background-color: #3F5FFF; color: white;"> -->
+                    <a class="btn" style="background-color: #3F5FFF; color: white;" href="mailto: farahclara@python.or.id?subject=Apply%20Sponsorhip%20PYCON%202019">
+                      Apply Here
+                    </a>
+                  <!-- </button> -->
                 </div>
 
               </div>
@@ -280,4 +285,9 @@
         </div>
       </div>
     </section>
+{% endblock %}
+
+{% block custom_js %}
+<script>
+</script>
 {% endblock %}
