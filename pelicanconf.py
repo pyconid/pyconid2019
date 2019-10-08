@@ -8,6 +8,7 @@ SITEURL = ''
 SITESUBTITLE = 'Surabaya Python User Group'
 DESCRIPTION = 'Surabaya Python User Group'
 SITEIMAGE = '/images/logo.png'
+TICKETING_SITE_URL = 'https://ticket.pycon.id'
 
 PATH = 'content'
 
