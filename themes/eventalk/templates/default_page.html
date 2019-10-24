@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.title}}{% endblock %}
+{% block content %}
+  <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+        <div class="col-md-9 ftco-animate pb-5">
+          <h1 class="mb-3 bread">{{page.title}}</h1>
+          <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>{{page.title}}</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+	<section class="ftco-section ftco-counter img" id="section-counter">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-10 offset-md-1 pl-md-5">
+          <div class="row justify-content-start p-3 border rounded">
+
+            {{ page.content }}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -8,6 +8,7 @@ SITEURL = ''
 SITESUBTITLE = 'Surabaya Python User Group'
 DESCRIPTION = 'Surabaya Python User Group'
 SITEIMAGE = '/images/logo.png'
+TICKETING_SITE_URL = 'https://ticket.pycon.id'
 
 PATH = 'content'
 
@@ -55,7 +56,10 @@ ARTICLE_SAVE_AS = 'articles/{slug}.html'
 # Menu Items configurations
 MENUITEMS = (
     # ('About', 'about'),
-    # ('Speak at Pycon ID', 'call-for-paper'),
+    ('Sponsor', 'sponsor'),
+    ('Participant', 'participant-mail-list'),
+    ('Speak at Pycon ID', 'call-for-paper'),
+    ('Code of Conduct', 'code-of-conduct'),
     # ('Speakers', 'speakers'),
     # ('Schedule', 'schedule'),
     # ('Blog', 'blog'),

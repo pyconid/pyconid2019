@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92449027-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-92449027-2');
+    </script>
+
     <title>{% block title %}{% endblock %}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
     <meta name="author" content="PyCon Indonesia 2019">
-    <meta name="description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose "Python for Everyone" as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
+    <meta name="description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'The Beauty of Python' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
     <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
     <meta name="generator" content="Pelican">
+
     <meta property="og:title" content="PyCon Indonesia 2019">
-    <meta property="og:description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'Python for Everyone' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
+    <meta property="og:description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'The Beauty of Python' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pycon.id/">
+    <meta property="og:image" content="https://pycon.id/images/pycon18_4.jpg">
     <meta property="og:updated_time" content="2019-08-11T17:01:13+07:00">
+    
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://pycon.id/images/pycon18_4.jpg">
     <meta name="twitter:title" content="PyCon Indonesia 2019">
-    <meta name="twitter:description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'Python for Everyone' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
+    <meta name="twitter:description" content="PyCon Indonesia is a conference where Python users, or people interested in Python, gather to learn from each other and meet other members of the community. We hope that everyone joining PyCon ID will not only learn new and exciting things, but also meet new friends and strengthen the connection with the community, and thus the community itself. This year, we chose 'The Beauty of Python' as our theme. The Pycon ID staff is continuing to work hard on making a conference that will allow everyone to have a great time and unlock new possibilities through Python.">
+
     <link rel="manifest" href="https://pycon.id/img/site.webmanifest">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
@@ -73,8 +87,77 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
+
+
     {% block content %}
     {% endblock %}
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <h2>Sponsor</h2>
+            <!-- <img style="height: 50px;" src="https://www.datocms-assets.com/7470/1551134239-google.png"> -->
+            <!-- &nbsp; -->
+            <!-- <img style="height: 50px;" src="https://arithmox.ai/wp-content/uploads/favi.jpg"> -->
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+  
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+            
+            <h2>Supported By</h2>
+            
+            <a href="https://valutac.com">
+                <img style="height: 50px;" src="https://valutac.com/assets/img/logo-blue.png">
+            </a>
+            &nbsp;
+
+            <a href="https://www.jetbrains.com">
+              <img style="height: 70px;" src="{{ SITEURL }}/images/supported/jetbrains.png">
+            </a>
+            &nbsp;
+
+          </div>
+  
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+            
+            <h2 class="text-center">Organized By</h2>
+            
+            <a href="https://surabaya-py.github.io">
+              <img style="height: 70px;" src="https://surabaya-py.github.io/images/logo.png">
+            </a>
+            &nbsp;
+
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+  
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+            <h2>Exclusive Media Partner</h2>
+            <a href="https://kumparan.com/">
+              <img style="height: 70px;" src="https://www.go-dok.com/wp-content/uploads/2016/04/Kumparan-Logo-V4.png">
+            </a>
+          </div>
+  
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
+            <h2>Venue Partner</h2>
+            <a href="https://www.uc.ac.id">
+              <img style="height: 70px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Universitas_Ciputra.png/240px-Universitas_Ciputra.png">
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -90,27 +173,27 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          <!-- <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
-              <!-- <h2 class="ftco-heading-2">Useful Links</h2>
+              <h2 class="ftco-heading-2">Useful Links</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Speakers</a></li>
                 <li><a href="#" class="py-2 d-block">Shcedule</a></li>
                 <li><a href="#" class="py-2 d-block">Events</a></li>
                 <li><a href="#" class="py-2 d-block">Blog</a></li>
-              </ul> -->
+              </ul>
             </div>
-          </div>
+          </div> -->
           <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <!-- <h2 class="ftco-heading-2">Privacy</h2>
+             <!-- <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Privacy</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Career</a></li>
                 <li><a href="#" class="py-2 d-block">About Us</a></li>
                 <li><a href="#" class="py-2 d-block">Contact Us</a></li>
                 <li><a href="#" class="py-2 d-block">Services</a></li>
-              </ul> -->
-            </div>
+              </ul>
+            </div> -->
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
@@ -159,6 +242,16 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="{{ SITEURL }}/theme/js/google-map.js"></script>
   <script src="{{ SITEURL }}/theme/js/main.js"></script>
+
+  <script>
+      $(document).ready(function(){
+        console.log('test')
+        $('.tool_tip').tooltip({trigger: 'manual'}).tooltip('show');  
+    });
+  </script>
+
+  {% block custom_js %}
+  {% endblock %}
 
   </body>
 </html>

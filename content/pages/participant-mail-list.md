@@ -1,43 +1,11 @@
-title: Call For Paper
+title: Participant Mail List
 Template: default_page
 
-### Speak at PyCon ID
+### Attending PyCon ID
 
-PyCon Indonesia is pleased to announce that the Call For Proposals is now open. We are calling out for speakers to share their Python knowledge which would intrigue the Python community at this event!
+PyCon Indonesia 2019 will be held in Surabaya on November 23rd. We are pleased to announce that registration for attendances will be open soon on October 1st, 2019. If you'd like to hear our ticket news earlier than anyone else, please join our Mail List! Psst, we will inform you with other informations such as ticket pre-sale* and etc on Mail List. So what are you waiting for? Join us now and learn any Python knowledge at this event!
 
-We’re looking for proposals on every aspect of Python: basic, intermediate or advanced levels. We’re interested to see all content that’s interesting and engaging to the Python community, whether it be **introduction, tutorials, case studies, learning-teaching-community, interactive sessions, or even how you and your organization work with Python**. So if you have something that the community might be interested in, let us know.
-
-The last but not least, **don’t worry if you’re a seasoned engineer or a novice with no experience of presenting at a conference before**; what matters is the content that you’ll be sharing with the community.
-
-### Proposal Types
-
-Talks are limited to a maximum of 40 minutes, and may preferably be accompanied with helping material (presentation, image, document, etc). The time slots include time for questions from the audience, so please plan your talk accordingly.
-
-Lightning Talks are limited to a maximum of 7 minutes. The lightning talks session will not have Q&A time slot on stage.
-
-Talks could be on a variety of topics (for further details and inspiration, check out the next section).
-
-**Your proposal is as simple as answering these questions:**
-
-* Title of your talks
-* Elevator Pitch
-* Audience Level (Beginner, Intermediate, Advanced)
-* Description of your talks
-* About you
-
-
-### Guidelines for Proposal Submission
-
-While there’s not a strict criteria on the proposal content, there are a few guidelines to be followed while submitting a proposal and you must follow the Code of Conduct.
-
-The proposal should be concise and relevant to the event. Please be sure to mention necessary versions and environment setup configurations, where applicable.
-
-It’s preferable if your associated organization’s name/branding is mentioned only at the beginning of the proposal, and the rest of the content is unbiased and generic. Moreover, any platform, technology, browser, and OS biases should also be avoided. Selection status of proposals will be notified via email.
-
-Feel free to submit multiple proposals. For any questions, please write to conf@python.or.id Last, but not the least, we accept talks in Bahasa Indonesia and English. After all, it’s PyCon Indonesia!
-
-
-#### Join Our Stage! [Register Yourself](https://www.papercall.io/pyconid2019)
+#### Join PyCon Indonesia 2019!
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -71,7 +39,7 @@ Feel free to submit multiple proposals. For any questions, please write to conf@
 </label>
 	<select name="MMERGE5" class="required" id="mce-MMERGE5" style="height:40px">
 	<option value="Speaker">Speaker</option>
-    <option value="Participant">Participant</option>
+    <option value="Participant" selected>Participant</option>
     <option value="Sponsor">Sponsor</option>
     <option value="Partnership">Partnership</option>
 	</select>

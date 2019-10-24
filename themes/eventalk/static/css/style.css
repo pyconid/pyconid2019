@@ -4579,7 +4579,8 @@ button.close {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  font-size: 17px; }
 
 .popover {
   position: absolute;
