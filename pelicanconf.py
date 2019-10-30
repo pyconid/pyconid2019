@@ -60,8 +60,8 @@ MENUITEMS = (
     ('Participant', 'participant-mail-list'),
     # ('Speak at Pycon ID', 'call-for-paper'),
     ('Code of Conduct', 'code-of-conduct'),
-    # ('Speakers', 'speakers'),
-    # ('Schedule', 'schedule'),
+    ('Speakers', 'speakers'),
+    ('Schedule', 'schedule'),
     # ('Blog', 'blog'),
     # ('Contact', 'contact'),
 )
