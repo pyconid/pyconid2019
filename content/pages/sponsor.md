@@ -1,4 +1,4 @@
-title: Sponsor
+title: Sponsorship Opportunity
 Template: sponsor
 prospectus_and_benefits: 
     <strong>Recruiting.</strong> What better place to find Python developers than a gathering of 250 of them? If you’re hiring, PyCon is the place to be. The conference has long been a great way to find the talented developers so many companies are searching for, so much that we added on-site Job Fair to make it even easier.
