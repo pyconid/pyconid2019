@@ -1,4 +1,4 @@
-title: Event Schedule
+title: Schedule
 Template: schedule
 schedule_item: 08:00 AM - 09:00 AM~ Registration Opens~ Bring a copy of your ticket or show the ticket in your phone.In case of student tickets, keep your student ID card or university acceptance letter in-hand~ PyCon Registration Desk~ Main Hall level 7
     09:00 AM - 09:15 AM~ Welcome Speeches~ Some words to open PyCon Indonesia 2019~ Ciputra University, Surabaya.Py and PythonID~ Main Hall level 7

@@ -47,11 +47,12 @@ STATIC_PATHS = ['images', 'pdfs']
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
+SCHEDULE_URL = 'schedule'
 
 # Article Configurations
-ARTICLE_PATHS = ['articles']
-ARTICLE_URL = 'articles/{slug}'
-ARTICLE_SAVE_AS = 'articles/{slug}.html'
+# ARTICLE_PATHS = ['articles']
+# ARTICLE_URL = 'articles/{slug}'
+# ARTICLE_SAVE_AS = 'articles/{slug}.html'
 
 # Menu Items configurations
 MENUITEMS = (
