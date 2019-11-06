@@ -47,21 +47,22 @@ STATIC_PATHS = ['images', 'pdfs']
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
+SCHEDULE_URL = 'schedule'
 
 # Article Configurations
-ARTICLE_PATHS = ['articles']
-ARTICLE_URL = 'articles/{slug}'
-ARTICLE_SAVE_AS = 'articles/{slug}.html'
+# ARTICLE_PATHS = ['articles']
+# ARTICLE_URL = 'articles/{slug}'
+# ARTICLE_SAVE_AS = 'articles/{slug}.html'
 
 # Menu Items configurations
 MENUITEMS = (
     # ('About', 'about'),
-    ('Sponsor', 'sponsor'),
+    ('Sponsorship Opportunity', 'sponsor'),
     ('Participant', 'participant-mail-list'),
-    ('Speak at Pycon ID', 'call-for-paper'),
+    # ('Speak at Pycon ID', 'call-for-paper'),
     ('Code of Conduct', 'code-of-conduct'),
-    # ('Speakers', 'speakers'),
-    # ('Schedule', 'schedule'),
+    ('Speakers', 'speakers'),
+    ('Schedule', 'schedule'),
     # ('Blog', 'blog'),
     # ('Contact', 'contact'),
 )
