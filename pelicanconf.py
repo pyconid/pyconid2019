@@ -57,12 +57,12 @@ SCHEDULE_URL = 'schedule'
 # Menu Items configurations
 MENUITEMS = (
     # ('About', 'about'),
+    ('Schedule', 'schedule'),
+    ('Speakers', 'speakers'),
     ('Sponsorship Opportunity', 'sponsor'),
-    ('Participant', 'participant-mail-list'),
+    # ('Participant', 'participant-mail-list'),
     # ('Speak at Pycon ID', 'call-for-paper'),
     ('Code of Conduct', 'code-of-conduct'),
-    ('Speakers', 'speakers'),
-    ('Schedule', 'schedule'),
     # ('Blog', 'blog'),
     # ('Contact', 'contact'),
 )
