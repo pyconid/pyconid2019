@@ -25,6 +25,7 @@
 		<div class="row justify-content-center mb-2 pb-1">
 			<div class="col-md-7 text-center heading-section ftco-animate">
 				<h2><span>Event</span> Schedule</h2>
+				<p><a href="#details">Jumps</a> to see layout and Detail Schedule</p>
 			</div>
 		</div>
 		<div class="ftco-search">
@@ -44,6 +45,10 @@
 								</div>
 							</div>
 							{% endfor %}
+
+							<div class="speaker-wrap ftco-animate" id="details">
+								{{ page.content }}
+							</div>
 						</div>
 					</div>
 				</div>
