@@ -21,6 +21,8 @@ schedule_item: 08:00-09:00~ Registration Opens~ Bring a copy of your ticket or s
 
 ![PyCon ID Layout](/images/layout_uc.png)
 
+![Room](/images/ruangan.png)
+
 ## Interactive Schedule
 
 You can change the way it sort and group.
