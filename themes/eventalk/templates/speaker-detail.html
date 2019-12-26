@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}{{page.talk_title}}-{{page.speaker_name}}{% endblock %}
+{% block content %}
+<!-- Tittle Event Schedule -->
+<div class="hero-wrap js-fullheight">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start"
+			data-scrollax-parent="true">
+			<div class="col-6 ftco-animate pb-5">
+				<h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{{ page.title }}
+				</h1>
+			</div>
+			<div class="col-6 ftco-animate" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+				data-stellar-background-ratio="0.5"
+				style="height: 80%; width: 80%; background-image: url('images/mascot_1.png'); background-size: cover;">
+			</div>
+		</div>
+	</div>
+</div>
+<!--Content Event Schedule -->
+<section class="ftco-section bg-light">
+	<div class="container">
+		<div class="row justify-content-center mb-2 pb-1">
+			<div class="text-center heading-section ftco-animate">
+				<h2>{{ page.talk_title }}</h2>
+				<h4>{{ page.talk_language }} Talk</h4>
+			</div>
+		</div>
+		<br>
+		<div class="ftco-search">
+			<div class="row">
+				<div class="col-md-5 justify-content-center" style="vertical-align:middle;text-align:center;">
+					<div class="col-md-12 mb-4 justify-content-center">
+						<img style="max-height: 350px;" src="{{ page.speaker_photo }}" class="img-thumbnail" alt="{{ page.speaker_name }}">
+					</div>
+					<div class="mb-2 col-md-12">
+
+						{% if page.speaker_website != "" %}
+						<a target="_blank" href="{{ page.speaker_website }}">
+							<i class="material-icons col-md-3">public</i>
+						</a>
+						{% else %}
+						<i class="material-icons col-md-3">public</i>
+						{% endif %}
+
+						{% if page.speaker_ppt != "" %}
+						<a target="_blank" href="{{ page.speaker_ppt }}">
+							<i class="material-icons col-md-3">menu_book</i>
+						</a>
+						{% else %}
+						<i class="material-icons col-md-3">menu_book</i>
+						{% endif %}
+
+						{% if page.speaker_video_id != "" %}
+						<a target="_blank" href="https://www.youtube.com/watch?v={{ page.speaker_video_id }}">
+							<i class="material-icons col-md-3">ondemand_video</i>
+						</a>
+						{% else %}
+						<i class="material-icons col-md-3">ondemand_video</i>
+						{% endif %}
+						
+					</div>
+				</div>
+				<div class="col-md-7 justify-content-center mb-2 pb-1">
+					<div class="speaker-wrap">
+						<h2 class="mb-2">{{ page.speaker_name }}</h2>
+						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+							from {{ page.speaker_organization }}
+						</p>
+						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+							<b>{{ page.short_bio }}</b>
+						</p>
+					</div>
+					<div class="speaker-wrap">
+						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+							"{{ page.short_intro }}"
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 tab-wrap">
+					<div class="tab-content">
+						<div class="tab-pane fade show active" role="tabpanel">
+
+							<div class="speaker-wrap">
+								<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
+									{{ page.speaker_bio }}
+								</p>
+							</div>
+
+							<div class="speaker-wrap ftco-animate" id="details">
+								{% for speaker_abstract in page.speaker_abstract %}
+									<p class="mb-2" style="text-align: justify;text-justify: inter-word;"	>
+									{{ speaker_abstract }}
+									</p>
+								{% endfor %}
+							</div>
+
+							{% if page.speaker_video_id != "" %}
+							<div class="justify-content-center mb-2 pb-1" style="vertical-align:middle;text-align:center;">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.speaker_video_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							{% endif %}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+{% endblock %}
