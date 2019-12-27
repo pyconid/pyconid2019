@@ -33,7 +33,11 @@
 			<div class="row">
 				<div class="col-md-5 justify-content-center" style="vertical-align:middle;text-align:center;">
 					<div class="col-md-12 mb-4 justify-content-center">
-						<img style="max-height: 350px;" src="{{ page.speaker_photo }}" class="img-thumbnail" alt="{{ page.speaker_name }}">
+						{% if page.speaker_photo != "" %}
+							<img style="max-height: 350px;" src="{{ page.speaker_photo }}" class="img-thumbnail" alt="{{ page.speaker_name }}">
+						{% else %}
+							<img style="max-height: 350px;" src="{{ SITEURL }}/images/mascot_1.png" class="img-thumbnail" alt="{{ page.speaker_name }}">
+						{% endif %}
 					</div>
 					<div class="mb-2 col-md-12">
 
