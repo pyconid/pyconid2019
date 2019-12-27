@@ -2,266 +2,58 @@
 
 {% block title %}{{page.title}}{% endblock %}
 {% block content %}
+<!-- Tittle Event Schedule -->
 <div class="hero-wrap js-fullheight">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start"
-      data-scrollax-parent="true">
-      <div class="col-6 ftco-animate pb-5">
-        <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{{ page.title }}
-        </h1>
-      </div>
-      <div class="col-6 ftco-animate" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
-        data-stellar-background-ratio="0.5"
-        style="height: 80%; width: 80%; background-image: url('images/mascot_1.png'); background-size: cover;">
-      </div>
-    </div>
-  </div>
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start"
+			data-scrollax-parent="true">
+			<div class="col-6 ftco-animate pb-5">
+				<h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">{{ page.title }}
+				</h1>
+			</div>
+			<div class="col-6 ftco-animate" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+				data-stellar-background-ratio="0.5"
+				style="height: 80%; width: 80%; background-image: url('images/mascot_1.png'); background-size: cover;">
+			</div>
+		</div>
+	</div>
 </div>
-
-<div class="ftco-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 align-items-center">
-        <h2>
-          This Page will updated soon
-        </h2>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- 
-<section class="ftco-section services-section bg-light">
-  <div class="container">
-    <div class="row d-flex">
-      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services d-block">
-          <div class="icon"><span class="flaticon-placeholder"></span></div>
-          <div class="media-body">
-            <h3 class="heading mb-3">Venue</h3>
-            <p> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services d-block">
-          <div class="icon"><span class="flaticon-world"></span></div>
-          <div class="media-body">
-            <h3 class="heading mb-3">Transport</h3>
-            <p>A small river named Duden flows by their place and supplies.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services d-block">
-          <div class="icon"><span class="flaticon-hotel"></span></div>
-          <div class="media-body">
-            <h3 class="heading mb-3">Hotel</h3>
-            <p>A small river named Duden flows by their place and supplies.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-        <div class="media block-6 services d-block">
-          <div class="icon"><span class="flaticon-cooking"></span></div>
-          <div class="media-body">
-            <h3 class="heading mb-3">Restaurant</h3>
-            <p>A small river named Duden flows by their place and supplies.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="ftco-section">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading">Speaker</span>
-        <h2 class="mb-4"><span>Our</span> Speakers</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 speaker">
-        <img src="/images/speaker-1.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-        <div class="text text-center pt-3">
-          <h3>John Adams</h3>
-          <span class="position">Web Developer</span>
-          <ul class="ftco-social mt-3">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4 speaker">
-        <img src="/images/speaker-2.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-        <div class="text text-center pt-3">
-          <h3>John Adams</h3>
-          <span class="position">Web Developer</span>
-          <ul class="ftco-social mt-3">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4 speaker">
-        <img src="/images/speaker-3.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-        <div class="text text-center pt-3">
-          <h3>John Adams</h3>
-          <span class="position">Web Developer</span>
-          <ul class="ftco-social mt-3">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4 speaker">
-        <img src="/images/speaker-4.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-        <div class="text text-center pt-3">
-          <h3>John Adams</h3>
-          <span class="position">Web Developer</span>
-          <ul class="ftco-social mt-3">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4 speaker">
-        <img src="/images/speaker-5.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-        <div class="text text-center pt-3">
-          <h3>John Adams</h3>
-          <span class="position">Web Developer</span>
-          <ul class="ftco-social mt-3">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-4 speaker">
-        <img src="/images/speaker-6.jpg" class="img-fluid" alt="Colorlib HTML5 Template">
-        <div class="text text-center pt-3">
-          <h3>John Adams</h3>
-          <span class="position">Web Developer</span>
-          <ul class="ftco-social mt-3">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!--Content Event Schedule -->
 <section class="ftco-section bg-light">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-7 heading-section ftco-animate text-center">
-        <span class="subheading">Pricing Tables</span>
-        <h2 class="mb-1"><span>Our</span> Ticket Pricing</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 ftco-animate">
-        <div class="block-7">
-          <div class="text-center">
-            <h2 class="heading">Personal</h2>
-            <span class="price"><sup>$</sup> <span class="number">85</span></span>
-            <span class="excerpt d-block">per Month</span>
+	<div class="container">
+		<div class="row justify-content-center mb-2 pb-1">
+			<div class="col-md-7 text-center heading-section ftco-animate">
+				<h2><span>Our</span> Speakers</h2>
+			</div>
+		</div>
+		<div class="ftco-search">
+			<div class="row">
+				<div class="col-md-12 tab-wrap">
+					<div class="tab-content">
+						<div class="tab-pane fade show active" role="tabpanel">
+							{% for schedule_item in page.schedule_item %}
+							{% set list_schedule = schedule_item.split('~') %}
+							<div class="speaker-wrap ftco-animate d-flex">
+								<div class="text pl-md-5">
+									<span class="time">{{ list_schedule[0] }}</span>
+									<h2>{{ list_schedule[1] }}</h2>
+									<p>{{ list_schedule[2] }}</p>
+									<h3 class="speaker-name">&mdash; <a href="{{ SITEURL + '/speaker/' + list_schedule[5] }}"> {{ list_schedule[3] }}</a>
+										<span class="position"> {{ list_schedule[4] }}</span></h3>
+								</div>
+							</div>
+							{% endfor %}
 
-            <h3 class="heading-2 my-4">Enjoy All The Features</h3>
-
-            <ul class="pricing-text mb-5">
-              <li>Conference Seats</li>
-              <li>Free Wifi</li>
-              <li>Coffee Breaks</li>
-              <li>Lunch</li>
-              <li>Workshops</li>
-              <li>One Speakers</li>
-              <li>Papers</li>
-            </ul>
-
-            <a href="#" class="btn btn-primary d-block px-2 py-3">Buy Ticket</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 ftco-animate">
-        <div class="block-7">
-          <div class="text-center">
-            <h2 class="heading">Small Team</h2>
-            <span class="price"><sup>$</sup> <span class="number">200</span></span>
-            <span class="excerpt d-block">per Month</span>
-
-            <h3 class="heading-2 my-4">Enjoy All The Features</h3>
-
-            <ul class="pricing-text mb-5">
-              <li>Conference Seats</li>
-              <li>Free Wifi</li>
-              <li>Coffee Breaks</li>
-              <li>Lunch</li>
-              <li>Workshops</li>
-              <li>One Speakers</li>
-              <li>Papers</li>
-            </ul>
-
-            <a href="#" class="btn btn-primary d-block px-2 py-3">Buy Ticket</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 ftco-animate">
-        <div class="block-7">
-          <div class="text-center">
-            <h2 class="heading">Family Pack</h2>
-            <span class="price"><sup>$</sup> <span class="number">499</span></span>
-            <span class="excerpt d-block">per Month</span>
-
-            <h3 class="heading-2 my-4">Enjoy All The Features</h3>
-
-            <ul class="pricing-text mb-5">
-              <li>Conference Seats</li>
-              <li>Free Wifi</li>
-              <li>Coffee Breaks</li>
-              <li>Lunch</li>
-              <li>Workshops</li>
-              <li>One Speakers</li>
-              <li>Papers</li>
-            </ul>
-
-            <a href="#" class="btn btn-primary d-block px-2 py-3">Buy Ticket</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+              {% if page.content != "" %}
+              <div class="speaker-wrap ftco-animate" id="details">
+								{{ page.content }}
+              </div>
+              {% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </section>
-
-<section class="ftco-section-parallax">
-  <div class="parallax-img d-flex align-items-center">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-          <h2>Subcribe to our Newsletter</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-            blind texts. Separated they live in</p>
-          <div class="row d-flex justify-content-center mt-4 mb-4">
-            <div class="col-md-8">
-              <form action="#" class="subscribe-form">
-                <div class="form-group d-flex">
-                  <input type="text" class="form-control" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="submit px-3">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 {% endblock %}
