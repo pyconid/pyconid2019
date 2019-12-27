@@ -9,7 +9,7 @@ speaker_organization: JULO
 short_bio: Head of Engineering
 short_intro: Tools for creating high quality Python code
 speaker_website: https://github.com/hsebastian
-speaker_ppt: 
+speaker_ppt: https://docs.google.com/presentation/d/1aATYRgDCSVkZPNgrUZ4SE8NtI208DFU-nld065XhIds/edit?usp=sharing
 speaker_video_id: 
 speaker_bio: Head of Engineering
 speaker_abstract: The first part of this talk, I will talk about various tools (10 mins): 

@@ -9,7 +9,7 @@ speaker_organization: Solution Strategist
 short_bio: Esri Indonesia's solution strategist engineer with a master's degree in instrumentation and control from ITB.
 short_intro: I will use the well-known method for predicting the stock price market for forecasting the geothermal power plants process variable.
 speaker_website: https://medium.com/@lucaselbert
-speaker_ppt: 
+speaker_ppt: https://drive.google.com/file/d/0B46IJwutRDjLV1kycTlfWHVXODFGa0xBU2x2Q3ZpX1RGWjY4/view
 speaker_video_id: 
 speaker_bio: Experienced engineer with a demonstrated history of working in the information technology and services industry. Skilled in Python, Matlab, and Presentation. Strong analytical skills with a Master's degree focused in Instrumentation and Control from Institut Teknologi Bandung.
 speaker_abstract: With the increasing number of people, the amount of electricity demand will increase. Electricity does a commodity that cannot be separated from human lives. For example, the commuter line as the main transportation in Indonesia, especially in Jakarta, which connects the satellite cities like Bogor, Tangerang, and Bekasi, uses electricity to drive the motor inside the train. Every day more than 2 million people moving by this electric-powered vehicle. Even after the people arrive at the destination station, they will book online transportation like Gojek or Grab via the electric-powered mobile phone. Every time and everywhere we need electricity. The vacuum of electricity will affect human activities a lot, like the blackout accident that was happened on August 4th, 2019.

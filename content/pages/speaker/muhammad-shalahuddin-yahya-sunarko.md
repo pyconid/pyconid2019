@@ -9,7 +9,7 @@ speaker_organization: AI/ML Technical Lead
 short_bio: AI/ML technical lead in Qlue and high performance computing enthusiast, using Python in production environment for Qlue smart city solutions development.
 short_intro: The basic concepts & applications of concurrency & parallelism, how to choose them for your projects, their built-in packages, and sample cases, all in Python.
 speaker_website: 
-speaker_ppt: 
+speaker_ppt: https://drive.google.com/file/d/1LYdm1SoHTGN_sonjnGaLQUVlUMNDDeSp/view
 speaker_video_id: 
 speaker_bio: I'm an AI enthusiast backed by STEM education and interdisciplinary experiences whose encouraging the research and development of artificial intelligence and machine learning to solve various computer vision task problems. I love to plan and build efficient, effective, and high performance solutions to solve various industrial, business, even personal needs throughout utilization of multiple technologies.
 speaker_abstract: _Dealing with concurrency becomes hard when we lack the ‘working knowledge’ and best practices are not followed._ ‒ Ramith Jayasinghe, Experienced Software Engineer. 

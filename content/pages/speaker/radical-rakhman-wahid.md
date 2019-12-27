@@ -9,7 +9,7 @@ speaker_organization: Research, Development, and Knowledge at Data Science Indon
 short_bio: Informatics Engineering Student at UPN "Veteran" JaTim and Research, Development, and Knowledge at Data Science Indonesia East Java Region.
 short_intro: Pandas is python library for analyzing data. By using Pandas you can also read and write CSV, JSON, HTML, Excel, Stata, SAS, SQL, Big Query etc. files.
 speaker_website: https://github.com/rakhid16
-speaker_ppt: 
+speaker_ppt: https://docs.google.com/presentation/d/1u3jHMRa0UKZaw-AjyfcDaArPGayqW38w12nvjeaXv7I/edit?usp=sharing
 speaker_video_id: 
 speaker_bio: I am Rakhman Wahid, undergraduate student at UPN "Veteran" Jawa Timur and also part of Data Science Indonesia East Java Regian as division of research, development and knowledge. Interest in data science, software engineering, and Islamic education as well. Beside Python technology i also interest in JavaScript for building website(back-end & front-end).
 speaker_abstract: Because my talk is just lightning talk<br>

@@ -9,7 +9,7 @@ speaker_organization: Mozilla
 short_bio: Tech Speaker
 short_intro: Smart Ecosystem with Mozilla IoT
 speaker_website: http://oonlab.com
-speaker_ppt: 
+speaker_ppt: https://drive.google.com/file/d/1y_FOAE7BFGqTJOWTk_mmMgsDWq0dfgEJ/view
 speaker_video_id: 
 speaker_bio: Rizky is Founder of Software Development Company in Indonesia called Valutac, PyCon Indonesia Chairman 2017-2018, Mozilla Tech Speaker as well as a contributor to the Mozilla program and project for the past six years. <br><br>Based in Bima and Tangerang, Indonesia as Farmer building his dream for automation and open web, he has been pushing it boundaries every day. When he's not coding, he likes to travel the world and hack the stock exchange. Anyway, Rizky is Full-Time Gamer now!
 speaker_abstract: I will demonstrate Mozilla’s WebThings Gateway, an IoT framework to protect user privacy and security, and to improve cross-brand interoperability. 
