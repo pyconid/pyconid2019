@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}{{page.talk_title}}-{{page.speaker_name}}{% endblock %}
+{% block title %}{{page.talk_title}} - {{page.speaker_name}}{% endblock %}
 {% block content %}
 <!-- Tittle Event Schedule -->
 <div class="hero-wrap js-fullheight">
@@ -102,6 +102,7 @@
 									{{ speaker_abstract }}
 									</p>
 								{% endfor %}
+								<p class="mb-2" style="text-align: justify;text-justify: inter-word;">{{ page.content }}</p>
 							</div>
 
 							{% if page.speaker_video_id != "" %}
