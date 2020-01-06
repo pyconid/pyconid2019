@@ -31,43 +31,43 @@
 		<br>
 		<div class="ftco-search">
 			<div class="row">
-				<div class="col-md-5 justify-content-center" style="vertical-align:middle;text-align:center;">
-					<div class="col-md-12 mb-4 justify-content-center">
+				<div class="col-sm-5 justify-content-center" style="vertical-align:middle;text-align:center;">
+					<div class="col-sm-12 mb-4 justify-content-center">
 						{% if page.speaker_photo != "" %}
-							<img style="max-height: 350px;" src="{{ page.speaker_photo }}" class="img-thumbnail" alt="{{ page.speaker_name }}">
+							<img src="{{ page.speaker_photo }}" class="img-fluid img-thumbnail" alt="{{ page.speaker_name }}">
 						{% else %}
 							<img style="max-height: 350px;" src="{{ SITEURL }}/images/mascot_1.png" class="img-thumbnail" alt="{{ page.speaker_name }}">
 						{% endif %}
 					</div>
-					<div class="mb-2 col-md-12">
+					<div class="mb-2 col-sm-12">
 
 						{% if page.speaker_website != "" %}
 						<a target="_blank" href="{{ page.speaker_website }}">
-							<i class="material-icons col-md-3">public</i>
+							<i class="material-icons mr-4">public</i>
 						</a>
 						{% else %}
-						<i class="material-icons col-md-3">public</i>
+						<i class="material-icons mr-4">public</i>
 						{% endif %}
 
 						{% if page.speaker_ppt != "" %}
 						<a target="_blank" href="{{ page.speaker_ppt }}">
-							<i class="material-icons col-md-3">menu_book</i>
+							<i class="material-icons  mr-4">menu_book</i>
 						</a>
 						{% else %}
-						<i class="material-icons col-md-3">menu_book</i>
+						<i class="material-icons mr-4">menu_book</i>
 						{% endif %}
 
 						{% if page.speaker_video_id != "" %}
 						<a target="_blank" href="https://www.youtube.com/watch?v={{ page.speaker_video_id }}">
-							<i class="material-icons col-md-3">ondemand_video</i>
+							<i class="material-icons mr-4">ondemand_video</i>
 						</a>
 						{% else %}
-						<i class="material-icons col-md-3">ondemand_video</i>
+						<i class="material-icons mr-4">ondemand_video</i>
 						{% endif %}
 						
 					</div>
 				</div>
-				<div class="col-md-7 justify-content-center mb-2 pb-1">
+				<div class="col-sm-7 justify-content-center mb-2 pb-1">
 					<div class="speaker-wrap">
 						<h2 class="mb-2">{{ page.speaker_name }}</h2>
 						<p class="mb-2" style="text-align: justify;text-justify: inter-word;">
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 tab-wrap">
+				<div class="col-sm-12 tab-wrap">
 					<div class="tab-content">
 						<div class="tab-pane fade show active" role="tabpanel">
 
@@ -106,8 +106,8 @@
 							</div>
 
 							{% if page.speaker_video_id != "" %}
-							<div class="justify-content-center mb-2 pb-1" style="vertical-align:middle;text-align:center;">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.speaker_video_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="embed-responsive embed-responsive-16by9 justify-content-center mb-2 pb-1" style="vertical-align:middle;text-align:center;">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.speaker_video_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 							{% endif %}
 

@@ -4,7 +4,7 @@ slug: speaker/fauzan-erich-emmerling
 talk_title: How Python Change My Life
 talk_language: Keynote Speaker
 speaker_name: Fauzan Erich Emmerling
-speaker_photo: 
+speaker_photo: /images/speakers/fauzan-erich-emmerling.jpg
 speaker_organization: Mobile Product Engineering Lead
 short_bio: Mobile product engineering lead at Gojek and Co-Founder of Python ID Jogja
 short_intro: How Python Change My Life. A timeline of engineering skills improvement inspired by Python
