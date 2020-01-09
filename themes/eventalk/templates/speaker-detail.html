@@ -4,12 +4,12 @@
 
 {% block metaHtml %}
 	<meta name="name" content="{{ page.talk_title }}">
-	<meta name="description" content="{{ page.speaker_name }}, {{ page.short_intro }}. {{ page.speaker_name }} is a {{ page.short_bio }}">
+	<meta name="description" content="{% for speaker_abstract in page.speaker_abstract %}{{ speaker_abstract }}{% endfor %}">
 {% endblock %}
 
 {% block facebookMeta %}
     <meta property="og:title" content="{{ page.talk_title }}">
-    <meta property="og:description" content="{{ page.speaker_name }}, {{ page.short_intro }}. {{ page.speaker_name }} is a {{ page.short_bio }}">
+    <meta property="og:description" content="{% for speaker_abstract in page.speaker_abstract %}{{ speaker_abstract }}{% endfor %}">
 	<meta property="og:url" content="{{ SITEURL }}/{{ page.slug }}">
 	{% if page.speaker_photo != "" %}
 		<meta property="og:image" content="https://pycon.id{{ page.speaker_photo }}">
@@ -25,7 +25,7 @@
 		<meta name="twitter:image" content="https://pycon.id/images/pycon18_4.jpg">
 	{% endif %}
     <meta name="twitter:title" content="{{ page.talk_title }}">
-    <meta name="twitter:description" content="{{ page.speaker_name }}, {{ page.short_intro }}. {{ page.speaker_name }} is a {{ page.short_bio }}">
+    <meta name="twitter:description" content="{% for speaker_abstract in page.speaker_abstract %}{{ speaker_abstract }}{% endfor %}">
 {% endblock twitterMeta %}
 
 {% block content %}
