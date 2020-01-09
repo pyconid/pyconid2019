@@ -1,6 +1,33 @@
 {% extends 'base.html' %}
 
 {% block title %}{{page.talk_title}} - {{page.speaker_name}}{% endblock %}
+
+{% block metaHtml %}
+	<meta name="name" content="{{ page.talk_title }}">
+	<meta name="description" content="{{ page.speaker_name }}, {{ page.short_intro }}. {{ page.speaker_name }} is a {{ page.short_bio }}">
+{% endblock %}
+
+{% block facebookMeta %}
+    <meta property="og:title" content="{{ page.talk_title }}">
+    <meta property="og:description" content="{{ page.speaker_name }}, {{ page.short_intro }}. {{ page.speaker_name }} is a {{ page.short_bio }}">
+	<meta property="og:url" content="{{ SITEURL }}/{{ page.slug }}">
+	{% if page.speaker_photo != "" %}
+		<meta property="og:image" content="https://pycon.id{{ page.speaker_photo }}">
+	{% else %}
+		<meta property="og:image" content="https://pycon.id/images/pycon18_4.jpg">
+	{% endif %}
+{% endblock %}
+
+{% block twitterMeta %}
+	{% if page.speaker_photo != "" %}
+		<meta name="twitter:image" content="https://pycon.id{{ page.speaker_photo }}">
+	{% else %}
+		<meta name="twitter:image" content="https://pycon.id/images/pycon18_4.jpg">
+	{% endif %}
+    <meta name="twitter:title" content="{{ page.talk_title }}">
+    <meta name="twitter:description" content="{{ page.speaker_name }}, {{ page.short_intro }}. {{ page.speaker_name }} is a {{ page.short_bio }}">
+{% endblock twitterMeta %}
+
 {% block content %}
 <!-- Tittle Event Schedule -->
 <div class="hero-wrap js-fullheight">
