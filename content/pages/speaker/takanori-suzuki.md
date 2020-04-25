@@ -4,13 +4,13 @@ slug: speaker/takanori-suzuki
 talk_title: Automate the Boring Stuff with Slackbot
 talk_language: English
 speaker_name: Takanori Suzuki
-speaker_photo: 
+speaker_photo: /images/speakers/takanori-suzuki.jpg
 speaker_organization: Vice-Chair of PyCon JP Committee
 short_bio: Takanori is a ViceChair of PyCon JP Committee. He is also a director of BeProud Inc., and his title is "Python Climber". He held PyCon JP 2014-2016 as a chair.
 short_intro: I will explain how to create a chatbot using slackbot. I will share how to create a simple bot in Python and how to extend bot with libraries and APIs.
 speaker_website: 
 speaker_ppt: 
-speaker_video_id: 
+speaker_video_id: 3iBA9kjQ9B0
 speaker_bio: Takanori([@takanory](https://twitter.com/takanory/)) is a Vice Chairperson of [PyCon JP Committee](https://www.pycon.jp). <br>He is also a Director of [BeProud Inc.](https://www.beproud.jp/careers/en/), and his title is "Python Climber". <br>Takanori held PyCon JP 2014 to 2016 as the Chairperson. <br>Currently he teaches Python to beginners as a lecturer at [Python Boot Camp](https://pycamp.pycon.jp) all over Japan. <br>In addition, he published several [Python books](https://www.amazon.co.jp/l/B00W95A036). <br>Tananori plays trumpet, climbs boulder, loves Lego, ferrets and beer.
 speaker_abstract: 
   <br>The outline of my presentation is below:
