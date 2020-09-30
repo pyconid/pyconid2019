@@ -1,6 +1,6 @@
-language: python
+language: Python
 dist: trusty
-sudo: required
+sudo: Required
 
 python:
 - '3.5'
