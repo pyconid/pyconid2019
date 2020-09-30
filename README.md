@@ -6,5 +6,5 @@
 
 * create `venv`
 * install requirements `pip install -r requirements.txt`
-* `pelican --listen --autoreload` atau `make regenerate` untuk menjalankannya
+* `pelican --listen --autoreload` or `make regenerate` to run it.
 * open localhost:8000
